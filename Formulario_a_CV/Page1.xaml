@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formulario_a_CV.Page1">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <Grid RowSpacing="0" ColumnSpacing="3" x:Name="PagetoPDF">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="175" />
+                        <RowDefinition Height="150" />
+                        <RowDefinition Height="175" />
+                        <RowDefinition Height="325" />
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                    </Grid.ColumnDefinitions>
+
+                    <BoxView Color="SandyBrown"/>
+                    <Frame Margin="10,-30, 10, 10"
+               BorderColor="Black"
+               CornerRadius="50"
+               HeightRequest="60"
+               WidthRequest="60"
+               IsClippedToBounds="True"
+               HorizontalOptions="Center"
+               VerticalOptions="Center">
+                        <Image Source="monkey_cartoon.jpg"
+                Aspect="AspectFill"
+                Margin="-20"
+                HeightRequest="100"
+                WidthRequest="100" />
+                    </Frame>
+                    <Label Grid.Row="0"
+               Grid.Column="0"
+               Text="{Binding MainContentName}"
+               Margin="25, 129, 3, 5"/>
+                    <Label Grid.Row="0"
+               Grid.Column="0"
+               Text="{Binding MainContentLastname}"
+               VerticalOptions="End"
+               HorizontalOptions="Center"/>
+
+                    <BoxView Grid.Row="1" Color="SandyBrown"/>
+                    <Label Grid.Row="1"
+               Grid.Column="0"
+               Text="Age:" FontSize="Medium" TextColor="Black" TextDecorations="Underline"/>
+                    <Label Grid.Row="1"
+               Grid.Column="0"
+               Text="{Binding MainContentAge}" 
+               Margin="5, 50, 3, 5"/>
+
+                    <BoxView Grid.Row="2" Color="SandyBrown"/>
+                    <Label Grid.Row="2"
+               Grid.Column="0"
+               Text="Address: " FontSize="Medium" TextColor="Black" TextDecorations="Underline"/>
+                    <Label Grid.Row="2"
+               Grid.Column="0"
+               Text="{Binding MainContentAddress}"
+               Margin="5, 50, 3, 5"/>
+
+
+                    <BoxView Grid.Row="3" Color="SandyBrown" />
+                    <Label Grid.Row="3"
+               Grid.Column="0"
+               Text="Formation:" FontSize="Medium" TextColor="Black" TextDecorations="Underline"/>
+                    <Label Grid.Row="3"
+               Grid.Column="0"
+               Text="{Binding MainContentFormation}"
+               Margin="5, 50, 3, 5"/>
+
+
+                    <BoxView Grid.Column="1" Color="White" />
+                    <Label Grid.Row="0"
+               Grid.Column="1"
+               Text="Occupation:" FontSize="Medium" TextColor="Black" TextDecorations="Underline"/>
+                    <Label Grid.Column="1"
+               Text="{Binding MainContentOccupation}"
+               Margin="5, 50, 3, 5" />
+
+
+                    <BoxView Grid.Row="1" Grid.Column="1" Color="White" />
+                    <Label Grid.Row="1"
+               Grid.Column="1"
+               Text="Languages:" FontSize="Medium" TextColor="Black" TextDecorations="Underline"/>
+                    <Label Grid.Row="1"
+               Grid.Column="1"
+               Text="{Binding MainContentLanguage}"
+               Margin="5, 50, 3, 5" />
+
+                    <BoxView Grid.Row="2" Grid.Column="1" Color="White"/>
+                    <Label Grid.Row="2"
+               Grid.Column="1"
+               Text="Skills:" FontSize="Medium" TextColor="Black" TextDecorations="Underline"/>
+                    <Label Grid.Row="2"
+               Grid.Column="1"
+               Text="{Binding MainContentAbilities}"
+               Margin="5, 50, 3, 5"/>
+
+                    <BoxView Grid.Row="3" Grid.Column="1" Color="White" />
+                    <Label Grid.Row="3"
+               Grid.Column="1"
+               Text="Work experience:" FontSize="Medium" TextColor="Black" TextDecorations="Underline"/>
+                    <Label Grid.Row="3"
+               Grid.Column="1"
+               Text="{Binding MainContentW_experience}"
+               Margin="5, 50, 3, 5"/>
+                </Grid>
+            </ScrollView>
+            <Button Text="Save CV" Clicked="Button_Save_CV"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

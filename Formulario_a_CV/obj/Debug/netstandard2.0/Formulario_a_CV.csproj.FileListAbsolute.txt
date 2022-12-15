@@ -1,0 +1,16 @@
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\bin\Debug\netstandard2.0\Formulario_a_CV.deps.json
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\bin\Debug\netstandard2.0\Formulario_a_CV.dll
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\bin\Debug\netstandard2.0\Formulario_a_CV.pdb
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\Formulario_a_CV.csproj.AssemblyReference.cache
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\Formulario_a_CV.GeneratedMSBuildEditorConfig.editorconfig
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\Formulario_a_CV.AssemblyInfoInputs.cache
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\Formulario_a_CV.AssemblyInfo.cs
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\Formulario_a_CV.csproj.CoreCompileInputs.cache
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\XamlC.stamp
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\Formulario_a_CV.dll
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\refint\Formulario_a_CV.dll
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\Formulario_a_CV.pdb
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\ref\Formulario_a_CV.dll
+C:\CCOMP-II\VISUAL_STUDIO_COMUNITY_APP\Formulario_a_CV\Formulario_a_CV\obj\Debug\netstandard2.0\Page1.xaml.g.cs

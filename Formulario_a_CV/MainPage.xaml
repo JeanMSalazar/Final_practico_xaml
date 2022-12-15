@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formulario_a_CV.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Name:"/>
+                <Entry Placeholder="Enter your name" x:Name="name"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Lastname:"/>
+                <Entry Placeholder="Enter your lastname" x:Name="lastname"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Age:"/>
+                <Entry Placeholder="Enter your Age" x:Name="age"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" x:Name="ocupation">
+                <Label Text="Occupation:"/>
+                <Entry Placeholder="Enter your occupation" x:Name="occupationplus"/>
+            </StackLayout>
+            <Button Text="+" Clicked="ButtonOcupationPlusClicked"/>
+            <StackLayout Orientation="Vertical" x:Name="language">
+                <Label Text="Language:"/>
+                <Entry Placeholder="Enter your languages" x:Name="languageplus"/>
+            </StackLayout>
+            <Button Text="+" Clicked="ButtonLanguagesPlusClicked"/>
+            <StackLayout Orientation="Vertical" x:Name="abilitie">
+                <Label Text="Abilities:"/>
+                <Entry Placeholder="Enter your abilities" x:Name="abilitieplus"/>
+            </StackLayout>
+            <Button Text="+" Clicked="ButtonAbilitiesPlusClicked"/>
+            <StackLayout Orientation="Vertical" x:Name="formation">
+                <Label Text="Formation:"/>
+                <Entry Placeholder="Enter your formation" x:Name="formationplus"/>
+            </StackLayout>
+            <Button Text="+" Clicked="ButtonFormationPlusClicked"/>
+            <StackLayout Orientation="Vertical" x:Name="w_experience">
+                <Label Text="work experience:"/>
+                <Entry Placeholder="Enter your work experience" x:Name="w_experienceplus"/>
+            </StackLayout>
+            <Button Text="+" Clicked="ButtonExperiencePlusClicked"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Address:"/>
+                <Entry Placeholder="Enter your address" x:Name="address"/>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Submit" Clicked="ButtonSubmitClicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
